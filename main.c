@@ -10,11 +10,10 @@ int main(int argc, char *argv[]) {
 	printf("정수를 입력하시오:");
 	scanf("%d", &a);
 	
-	if(a>0)
-	printf("양수입니다.");
-	else if(a=0)
-	printf("0입니다.");
-    else
-	printf("음수입니다."); 
+	if(a<0)
+    	a = a*(-1);
+	
+	printf("절댓값은 %d 입니다. \n", a);
+//제가 가리키는곳 보시면 틀린곳을 알려줘요~! 
 	return 0;
 }

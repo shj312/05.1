@@ -14,6 +14,6 @@ int main(int argc, char *argv[]) {
     	a = a*(-1);
 	
 	printf("절댓값은 %d 입니다. \n", a);
-//제가 가리키는곳 보시면 틀린곳을 알려줘요~! 
+
 	return 0;
 }
